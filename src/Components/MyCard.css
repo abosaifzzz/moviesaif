@@ -1,0 +1,29 @@
+.col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 1rem;
+  }
+  .card-name{
+    color: rgb(255, 51, 0);
+   
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+  }
+  .card-bg{
+    background-color: #2C2C2C !important;
+
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  
+  .card-text.flex-grow-1 {
+    flex-grow: 1;
+  }
